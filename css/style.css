@@ -107,10 +107,334 @@ body {
 /* Profile Section */
 
 
+.h2-1 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 51px !important;
+    color: #fff !important;
+}
+
 .h4-k {
     font-family: 'Space Mono' !important;
     font-style: normal !important;
     font-weight: 700 !important;
     font-size: 28px !important;
     color: #fff !important;
+}
+
+.p1 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    color: #fff !important;
+}
+
+.p2 {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    color: #858584 !important;
+}
+
+.p3 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    color: #fff !important;
+}
+
+.p4 {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    color: #858584 !important;
+}
+
+.adressdiv {
+    width: 100% !important;
+    height: 60px !important;
+    border: none !important;
+    background-color: #A259FF !important;
+    border-radius: 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+}
+
+.adress1 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.followbutt {
+    width: 100% !important;
+    height: 60px !important;
+    background-color: #2B2B2B !important;
+    border: 2px solid #A259FF !important;
+    border-radius: 20px !important;
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    transition: all .4s;
+}
+
+.followbutt:hover {
+    transform: scale(0.95);
+    background-color: #A259FF !important;
+}
+
+.plus1 path {
+    transition: all .4s;
+}
+
+.followbutt:hover .plus1 path {
+    fill: #fff !important;
+}
+
+.p5 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    color: #858584 !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
+
+.a1 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    color: #858584 !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
+
+.a1:focus {
+    color: #fff !important;
+}
+
+.numbersdiv {
+    width: 50px !important;
+    height: 32px !important;
+    background-color: #3b3b3b !important;
+    border-radius: 20px !important;
+    color: #fff !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-decoration: none !important;
+}
+
+.numbersdiv:focus {
+    background-color: #858584 !important;
+}
+
+.a1:focus .numbersdiv:focus {
+    color: #fff !important;
+    background-color: #858584 !important;
+}
+
+.numbersdiv1 {
+    width: 40px !important;
+    height: 32px !important;
+    background-color: #3b3b3b !important;
+    border-radius: 20px !important;
+    color: #fff !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.numbersdiv2 {
+    width: 30px !important;
+    height: 32px !important;
+    background-color: #3b3b3b !important;
+    border-radius: 20px !important;
+    color: #fff !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+
+/* Collection Section */ 
+
+
+
+.distantdiv {
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    cursor: pointer !important;
+    transition: all .4s !important;
+}
+
+.distantdiv:hover {
+    transform: scale(1.1);
+}
+
+.distantdiv1 {
+    background-color: #2B2B2B !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    padding-top: 10px !important;
+}
+
+.h3-distant {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    color: #fff !important;
+}
+
+.par1 {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+}
+
+.price {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #858584 !important;
+}
+
+.ethp {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+}
+
+
+
+/* Footer Section */
+
+
+footer {
+    background-color: #3B3B3B !important;
+}
+
+.p15 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #ccc;
+    margin-top: 33px !important;
+}
+
+.p16 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #ccc;
+    margin-top: 20px !important;
+}
+
+.h4-explore {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    color: #fff !important;
+}
+
+.p-marketplace {
+    color: #ccc !important;
+    font-family: 'Work Sans';
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+}
+
+.h3-weekly {
+    font-family: 'Space Mono' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    color: #fff !important;
+}
+
+.p17 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #ccc !important;
+    margin-top: 25px !important;
+}
+
+.p18 {
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #ccc !important;
+}
+
+.emailinput {
+    border: none !important;
+    border-radius: 20px !important;
+    height: 60px !important;
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    outline: none !important;
+    padding-left: 20px !important;
+}
+
+.emailinput1 {
+    border: none !important;
+    border-radius: 20px !important;
+    height: 60px !important;
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    outline: none !important;
+    padding-left: 20px !important;
+    width: 100% !important;
+    margin-bottom: 16px !important;
+}
+
+.subscribebutt {
+    height: 60px !important;
+    width: 100% !important;
+    border: none !important;
+    border-radius: 20px !important;
+    background-color: #A259FF !important;
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    overflow: visible !important;
+}
+
+.subsdiv {
+    background-color: #fff !important;
+    border-radius: 20px !important;
 }
