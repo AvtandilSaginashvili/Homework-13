@@ -103,6 +103,27 @@ body {
     transform: scale(0.96);
 }
 
+#coverimage {
+    background-image: url(../pics/Imagecover.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    #coverimage {
+        background-image: url(../pics/mobilecover.png) !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        width: 100% !important;
+    }
+
+    .profilediv {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
 
 /* Profile Section */
 
@@ -218,34 +239,22 @@ body {
     font-style: normal !important;
     font-weight: 600 !important;
     font-size: 22px !important;
-    color: #858584 !important;
+    color: #fff !important;
     cursor: pointer !important;
     text-decoration: none !important;
-}
-
-.a1:focus {
-    color: #fff !important;
+    transition: all .3s;
 }
 
 .numbersdiv {
     width: 50px !important;
     height: 32px !important;
-    background-color: #3b3b3b !important;
+    background-color: #858584 !important;
     border-radius: 20px !important;
     color: #fff !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     text-decoration: none !important;
-}
-
-.numbersdiv:focus {
-    background-color: #858584 !important;
-}
-
-.a1:focus .numbersdiv:focus {
-    color: #fff !important;
-    background-color: #858584 !important;
 }
 
 .numbersdiv1 {
@@ -257,6 +266,7 @@ body {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+    text-decoration: none !important;
 }
 
 .numbersdiv2 {
@@ -283,7 +293,7 @@ body {
 }
 
 .distantdiv:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .distantdiv1 {
